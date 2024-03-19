@@ -1,0 +1,83 @@
+*{
+  padding: 0;
+  margin: 0;box-sizing: border-box;
+}
+
+.navbar{
+  display: flex;
+  background-color: #1F2937;
+  padding:20px 20px;
+  justify-content: space-around;
+}
+
+ul, li, a {
+  display: flex;
+  color: white;
+  gap: 30px;
+  text-decoration: none;
+}
+
+h3{
+  color: white;
+}
+
+main{
+  display: flex;
+ background-color: #1F2937;
+ color: white;
+ padding: 45px 40px;
+ justify-content: center;
+}
+
+.aside{
+  padding: 20px;
+  margin: 0px 20px;
+  width:500px;
+  
+}
+
+button{
+background-color: rgb(50, 69, 244);
+font-size: 20px;
+border-radius: 5px;
+padding: 4px 18px;
+color: white;
+border: none;
+}
+
+.hero-pic{
+
+  margin-left: 80px;
+}
+
+
+
+
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+.cards{
+display: flex;
+justify-content: center;
+padding: 30px 20px;
+gap: 40px;
+flex-wrap: wrap;
+}
+
+.info{
+  text-align: center;
+  padding-top: 30px;
+}
+
+.content{
+  width: 200px;
+  height: auto;
+  gap: 20px;
+}
+
+
