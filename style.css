@@ -1,6 +1,7 @@
 *{
   padding: 0;
-  margin: 0;box-sizing: border-box;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 .navbar{
@@ -51,9 +52,6 @@ border: none;
 }
 
 
-
-
-
 *{
   box-sizing: border-box;
   margin: 0;
@@ -81,3 +79,55 @@ flex-wrap: wrap;
 }
 
 
+
+.quote{
+  box-sizing: border-box;
+  display: flex;
+  width: 100%;
+  background-color: dimgray;
+  justify-content: center;
+  font-size: 30px;
+  height: 500px;
+  align-items: center;
+}
+
+.quote, h2{
+  gap: 20px;
+
+}
+
+
+.p-box{
+  width: 500px;
+  position: relative;
+}
+
+
+
+.call-container{
+  display: flex;
+  background-color: skyblue;
+  width: 800px;
+  padding: 40px;
+  border-radius: 10px;
+}
+ 
+.call-container,.sign-up{
+  display: flex;
+  justify-content: space-around;
+}
+
+.sign-up button{
+  background-color: none;
+  border:2px solid white;
+  border-radius: 8px;
+}
+
+
+.p-box span{
+  position: absolute;
+  bottom: 0.1px;
+  right: 10px;
+margin: -20px;
+font-weight: bold;
+}
