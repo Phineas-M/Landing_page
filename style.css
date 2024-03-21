@@ -22,6 +22,10 @@ h3{
   color: white;
 }
 
+h1{
+  font-size: 48px;
+}
+
 main{
   display: flex;
  background-color: #1F2937;
@@ -34,6 +38,7 @@ main{
   padding: 20px;
   margin: 0px 20px;
   width:500px;
+  line-height: 40px;
   
 }
 
@@ -130,4 +135,16 @@ flex-wrap: wrap;
   right: 10px;
 margin: -20px;
 font-weight: bold;
+}
+
+
+.footer{
+  box-sizing: border-box;
+  background-color: dimgray;
+  width: 100%;
+  color:white;
+  text-align: center;
+  padding: 20px;
+ 
+
 }
