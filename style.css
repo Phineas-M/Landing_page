@@ -13,9 +13,15 @@
 
 ul, li, a {
   display: flex;
-  color: white;
+  color: #E5E7EB;
   gap: 30px;
   text-decoration: none;
+  font-size: 18px;
+}
+
+.logo{
+  font-size: 24px;
+  color: #F9FAF8;
 }
 
 h3{
@@ -28,15 +34,15 @@ h1{
 
 main{
   display: flex;
- background-color: #1F2937;
- color: white;
- padding: 45px 40px;
- justify-content: center;
+  background-color: #1F2937;
+  color: white;
+  padding: 45px 80px;
+  justify-content: space-around;
+
 }
 
 .aside{
   padding: 20px;
-  margin: 0px 20px;
   width:500px;
   line-height: 40px;
   
@@ -52,8 +58,8 @@ border: none;
 }
 
 .hero-pic{
-
-  margin-left: 80px;
+  border: 5px solid blue;
+  padding: 10px 15px;
 }
 
 
@@ -89,53 +95,66 @@ flex-wrap: wrap;
   box-sizing: border-box;
   display: flex;
   width: 100%;
-  background-color: dimgray;
+  background-color: #E5E7EB;
   justify-content: center;
-  font-size: 30px;
+  font-size: 36px;
+  font-weight:lighter;
   height: 500px;
   align-items: center;
+  color: #1F2937;
 }
 
 .quote, h2{
   gap: 20px;
+  font-size: 36px;
+  color: #1F2937;
 
 }
 
 
 .p-box{
-  width: 500px;
+  max-width: 600px;
   position: relative;
 }
 
+.p-box span{
+  position: absolute;
+  bottom: 0.1px;
+  left: 450px;
+margin: -40px;
+font-weight:bold;
+}
 
 
 .call-container{
   display: flex;
-  background-color: skyblue;
+  background-color: #3882F6;
   width: 800px;
   padding: 40px;
   border-radius: 10px;
+  color: white;
+  
 }
  
 .call-container,.sign-up{
   display: flex;
   justify-content: space-around;
+  
+}
+
+.call-container h2{
+  color: white;
+  
 }
 
 .sign-up button{
-  background-color: none;
+  background-color: #3882F6;
   border:2px solid white;
   border-radius: 8px;
 }
 
 
-.p-box span{
-  position: absolute;
-  bottom: 0.1px;
-  right: 10px;
-margin: -20px;
-font-weight: bold;
-}
+
 
 
 .footer{
